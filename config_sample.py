@@ -1,9 +1,9 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
-DATABASE_URL = ""
+BOT_TOKEN = "6864648554:AAH0VtehZo8wD4_6keIXsgvyYxu0ZXbaG7o"
+OWNER_ID = "5807740619"
+TELEGRAM_API = "28786884"
+TELEGRAM_HASH = "e45e49071c6f1ce834201a5611e75b81"
+DATABASE_URL = "mongodb+srv://vishnu:sadiesink@cluster0.mn1rm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
@@ -12,7 +12,7 @@ TG_PROXY = (
 )  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
+AUTHORIZED_CHATS = "-1002034524328"
 SUDO_USERS = ""
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
@@ -43,8 +43,8 @@ DISABLE_SEED = False
 DISABLE_FF_MODE = False
 
 # Telegraph
-AUTHOR_NAME = "WZML-X"
-AUTHOR_URL = "https://t.me/WZML_X"
+AUTHOR_NAME = "Vishnu"
+AUTHOR_URL = "https://t.me/Vishnudhfm14"
 
 # Task Limits
 DIRECT_LIMIT = 0
@@ -103,7 +103,7 @@ TIMEZONE = "Asia/Kolkata"
 
 # GDrive Tools
 GDRIVE_ID = ""
-GD_DESP = "Uploaded with WZ Bot"
+GD_DESP = "Uploaded with TGCW Bot"
 IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
 INDEX_URL = ""
@@ -150,7 +150,7 @@ UPDATE_PKGS = True
 
 # Leech
 LEECH_SPLIT_SIZE = 0
-AS_DOCUMENT = False
+AS_DOCUMENT = True
 EQUAL_SPLITS = False
 MEDIA_GROUP = False
 USER_TRANSMISSION = True
@@ -162,13 +162,13 @@ LEECH_CAPTION = ""
 THUMBNAIL_LAYOUT = ""
 
 # Log Channels
-LEECH_DUMP_CHAT = ""
-LINKS_LOG_ID = ""
-MIRROR_LOG_ID = ""
+LEECH_LOG_ID = "-1002144518124"
+MIRROR_LOG_ID = "-1002144518124"
+LINKS_LOG_ID = "-1002362599902
 
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
-BASE_URL = ""
+BASE_URL = "striking-petronille-vishnupawala-578f33a3.koyeb.app/"
 BASE_URL_PORT = 0
 WEB_PINCODE = True
 
