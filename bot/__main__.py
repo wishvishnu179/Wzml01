@@ -12,6 +12,23 @@ from pytz import timezone
 from . import LOGGER, bot_loop
 from .core.tg_client import TgClient
 
+import asyncio
+import aiohttp
+
+URL = "https://mid-roxanne-mahesh00-5aaad658.koyeb.app/"  # Replace with your koyeb app link...
+
+async def ping():
+    async with aiohttp.ClientSession() as session:
+        while True:
+            try:
+                async with session.get(URL) as response:
+                    print(f"Pinged server, status: {response.status}")
+            except Exception as e:
+                print(f"{e}")
+            await asyncio.sleep(120)
+
+loop = asyncio.get_event_loop()
+loop.create_task(ping())
 
 async def main():
     from asyncio import gather
