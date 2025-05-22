@@ -15,7 +15,7 @@ from .core.tg_client import TgClient
 import asyncio
 import aiohttp
 
-URL = "https://mid-roxanne-mahesh00-5aaad658.koyeb.app/"  # Replace with your koyeb app link...
+URL = "quickest-marcellina-tgcwvishnumb-18a7642d.koyeb.app/"  # Replace with your koyeb app link...
 
 async def ping():
     async with aiohttp.ClientSession() as session:
